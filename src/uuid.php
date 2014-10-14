@@ -12,6 +12,9 @@
  * @author Andrew Moore
  * @link http://www.php.net/manual/en/function.uniqid.php#94959
  */
+
+namespace macx;
+
 class UUID
 {
   /**

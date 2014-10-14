@@ -27,14 +27,19 @@ If you're using [Composer](https://getcomposer.org/) as a package manager for PH
 To generate a ID simply copy the following code:
 
 ```php
-$uuid = UUID::v4();
+include 'vendor/autoload.php';
+
+$uuid = macx\UUID::v4();
+
+echo 'The generated UUID is `' . $uuid . '';
 ```
 
 If you want to validate a ID against RFC do this:
 
 ```php
 $givenId = 'f81d4fae-7dec-11d0-a765-00a0c91e6bf6';
-if(UUID::is_valid($givenId)) {
+
+if(macx\UUID::is_valid($givenId)) {
   // do something
 }
 ```
