@@ -1,0 +1,27 @@
+{
+  "name": "macx/rfc-4122-uuid",
+  "description": "PHP-Class to generate valid RFC 4122 compliant Universally Unique IDentifiers (UUID) version 3, 4 and 5.",
+  "version": "1.0.0",
+  "keywords": ["php", "rfc-4122", "uuid"],
+  "type": "library",
+  "homepage": "https://github.com/macx/rfc-4122-uuid",
+  "authors": [
+    {
+      "name": "David Maciejewski",
+      "email": "hello@macx.io",
+      "homepage": "http://macx.io"
+    },
+    {
+      "name": "Andrew Moore",
+      "homepage": "https://github.com/FineWolf"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "macx\\": "src/"
+    }
+  }
+}
