@@ -31,7 +31,7 @@ include 'vendor/autoload.php';
 
 $uuid = macx\UUID::v4();
 
-echo 'The generated UUID is `' . $uuid . '';
+echo 'The generated UUID is `' . $uuid . '`';
 ```
 
 If you want to validate a ID against RFC do this:
