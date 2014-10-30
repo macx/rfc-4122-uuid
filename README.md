@@ -8,7 +8,7 @@ for named-based UUIDs are exactly the same. This is a pure
 PHP implementation.
 
 Author: [Andrew Moore](https://github.com/FineWolf?)
-Postet as a [commend](http://www.php.net/manual/en/function.uniqid.php#94959) at the PHP Manual back in 2010.
+posted this as a [note](http://www.php.net/manual/en/function.uniqid.php#94959) at the PHP Manual back in 2010.
 
 ## Install
 
@@ -22,6 +22,8 @@ If you're using [Composer](https://getcomposer.org/) as a package manager for PH
 }
 ```
 
+Or require via command line with: `composer require macx/rfc-4122-uuid 1.0.*`
+
 ## Generate a unique ID
 
 To generate a ID simply copy the following code:
@@ -31,7 +33,7 @@ include 'vendor/autoload.php';
 
 $uuid = macx\UUID::v4();
 
-echo 'The generated UUID is `' . $uuid . '';
+echo 'The generated UUID is `' . $uuid . '`';
 ```
 
 If you want to validate a ID against RFC do this:
