@@ -22,7 +22,11 @@ If you're using [Composer](https://getcomposer.org/) as a package manager for PH
 }
 ```
 
-Or require via command line with: `composer require macx/rfc-4122-uuid 1.0.*`
+Or require it via command line with:
+
+```bash
+$ composer require macx/rfc-4122-uuid 1.0.*
+```
 
 ## Generate a unique ID
 
